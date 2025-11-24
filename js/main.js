@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            navbar.classList.add('bg-vintage-cream/95', 'backdrop-blur-sm', 'shadow-md', 'py-2');
+            navbar.classList.add('bg-vintage-cream/95', 'backdrop-blur-sm', 'shadow-md', 'py-2', 'scrolled');
             navbar.classList.remove('py-4');
         } else {
-            navbar.classList.remove('bg-vintage-cream/95', 'backdrop-blur-sm', 'shadow-md', 'py-2');
+            navbar.classList.remove('bg-vintage-cream/95', 'backdrop-blur-sm', 'shadow-md', 'py-2', 'scrolled');
             navbar.classList.add('py-4');
         }
     });
